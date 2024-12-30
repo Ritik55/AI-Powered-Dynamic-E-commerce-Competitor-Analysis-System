@@ -1,0 +1,15 @@
+scraping:
+  amazon_url: "https://www.amazon.com/dp/"
+  ebay_url: "https://www.ebay.com/itm/"
+  walmart_url: "https://www.walmart.com/ip/"
+
+database:
+  name: "ecommerce_data.db"
+
+analysis:
+  sentiment_threshold: 0.5
+  product_match_threshold: 0.8
+
+dashboard:
+  port: 5000
+  debug: true
